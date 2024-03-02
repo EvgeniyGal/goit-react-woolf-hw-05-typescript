@@ -1,6 +1,5 @@
 import React, { createContext, useMemo, useState, useContext } from "react";
 import noop from "lodash/noop";
-import { type } from "os";
 
 type MenuIds = "first" | "second" | "last";
 type Menu = { id: MenuIds; title: string };
